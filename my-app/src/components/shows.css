@@ -1,0 +1,21 @@
+.card{
+    height:fit-content;
+    margin: 10px;
+    width: fit-content;
+}
+
+.card_image{
+    border-radius: 10px;
+}
+
+.shows_container{
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.show_heading{
+    color: white;
+    padding: auto;
+}

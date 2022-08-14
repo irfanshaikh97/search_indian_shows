@@ -1,0 +1,28 @@
+.show_details_title{
+    color: white;
+}
+
+.show_details{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.show_info{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 550px;
+    border: 1px solid black;
+}
+
+.show_details_img{
+    border-radius: 10px;
+}
+
+.show_details_description{
+    color: white;
+    padding: 1%;
+    text-align: left;
+}
+
