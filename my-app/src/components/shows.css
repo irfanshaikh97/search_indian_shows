@@ -4,8 +4,16 @@
     width: fit-content;
 }
 
+.heading_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .card_image{
     border-radius: 10px;
+    height: 290px;
+    width:210px;
 }
 
 .shows_container{
@@ -17,5 +25,14 @@
 
 .show_heading{
     color: white;
-    padding: auto;
 }
+
+@media screen and (max-width: 480px) {
+    .shows_container {
+      justify-content: center;
+    }
+
+    .show_heading{
+        margin-top: 150px;
+    }
+  }
